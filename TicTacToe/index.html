@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>Tic Tac Toe</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id ='container'>
+		<div id='board'>
+			<div id='title'>Tic Tac Toe</div>
+			<div >Current Player's turn: <span id = 'playerTurn'> </span> </div>
+			<table align='center'>
+			  <tr>
+			    <td class = 'square' id = 's0'></td>
+			    <td class = 'square' id = 's1'></td>
+			    <td class = 'square' id = 's2'></td>
+			  </tr>
+			  <tr>
+			    <td class = 'square' id = 's3'></td>
+			    <td class = 'square' id = 's4'></td>
+			    <td class = 'square' id = 's5'></td>
+			  </tr>
+			  <tr>
+			    <td class = 'square' id = 's6'></td>
+			    <td class = 'square' id = 's7'></td>
+			    <td class = 'square' id = 's8'></td>
+			  </tr>
+			</table>
+		</div>
+		<button type="button" onclick="restartGame()">Click to start a new game!</button>
+		<div >The last player to win: <span id = 'lastWinner'> </span> </div>
+		<div id='scoreboardTitle'> Scoreboard </div>
+		<div id='scoreboard'>
+		  <div id='playerXScoreboard'><strong> Player X </strong>
+	        <div id='playerXName'>Name: </div>
+	        <div>Win Count: <span id='playerXWinCount'></span></div>
+	      </div>
+	      <div id='playerOScoreboard'> <strong>Player O </strong>
+	        <div id='playerOName'>Name: </div>
+	        <div>Win Count: <span id='playerOWinCount'> </span></div>
+	      </div>
+  		</div>
+	</div>
+
+<script src = 'app.js'>
+
+</script>
+</body>
+</html>

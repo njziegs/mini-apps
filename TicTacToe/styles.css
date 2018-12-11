@@ -1,0 +1,68 @@
+
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  table-layout: fixed
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+td {
+	height: 100px;
+	width: 150px;
+	background-color: #70C1B3;
+	font-family: 'impact';
+	font-size: 28px
+}
+
+#board {
+	text-align: center;
+	background-color: #B2DBBF;
+	margin-bottom: 10px;
+}
+
+#container {
+	text-align: center;
+	position: absolute;
+	left: 300px;
+	width: 50%;
+	margin-bottom: 10px;
+	background-color: #B2DBBF;
+}
+
+#scoreboard {
+	background-color: #247BA0;
+
+}
+
+#playerXScoreboard {
+	float: left;
+	margin-left: 50px;
+}
+
+#playerOScoreboard {
+  float: right;
+  margin-right: 50px;
+}
+
+button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#playerXScoreboard, #playerOScoreboard {
+	font-size: 20px;
+}
+
+#scoreboardTitle {
+	font-size: 20px;
+	font-weight: bold
+}
+
+#title {
+	font-size: 26px;
+	font-weight: bold
+}
